@@ -5,4 +5,8 @@
 
 Some options don't work yet
 
+Demo:
+
 ![Main_menu](/src/screens/main_menu.png)
+![domain_zone](/src/screens/domain_zone.png)
+![lookup](/src/screens/lookup.png)
