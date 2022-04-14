@@ -4,8 +4,8 @@ from os import system as os_system
 class Window():
     def __init__(self):
         ### window size is in symbols size ###
-        self.win_width = 70
-        self.win_height = 18
+        self.win_width = 90
+        self.win_height = 20
         self.render_time = 0.08
 
         ### frame PART ###

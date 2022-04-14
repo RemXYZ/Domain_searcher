@@ -16,7 +16,7 @@ def current_window():
     pid = pid.value
 
     processed = psutil.process_iter()
-    list_pr = list(processed)
+    list_pr = tuple(processed)
     exe = binary_search(list_pr, pid, lambda v: v.pid)
     if exe != 0:
         return list_pr[exe].name()

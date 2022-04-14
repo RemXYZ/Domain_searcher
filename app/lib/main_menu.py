@@ -4,7 +4,7 @@ class Domain_menu:
     def __init__(self):
         self.buttons = ["Search", "Favorites", "History", "Settings", "Help", "Exit"]
         self.selected = 0
-        self.status = 1
+        self.status = 0
         self.first_start = 1
 
     def print_menu(self):
@@ -17,6 +17,9 @@ class Domain_menu:
 
     def search(self):
         self.set_sts(0)
+
+    def favorites(self):
+        pass
 
     def exit(self):
         return "exit"
